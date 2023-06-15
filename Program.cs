@@ -11,3 +11,12 @@ if (number1 > number2)
     Console.WriteLine($"{number1} наибольшее число");
     Console.WriteLine($"{number2} меньшее число");
 }
+else if (number1 < number2)
+{
+    Console.WriteLine($"{number1} наименьшее число");
+    Console.WriteLine($"{number2} наибольшее число");
+}
+else
+{
+    Console.WriteLine($"{number1} и {number2} равны!");
+}
